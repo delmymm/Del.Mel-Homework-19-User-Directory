@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 import Header from "./components/Header/header";
+import Table from "./components/Table/table"
 import TableBody from "./components/TableBody/tablebody";
 import API from "./utils/API";
 import Search from "./components/Search/search";
 import Wrapper from "./components/Wrapper/wrapper";
-import Table from "./components/Table/table";
+
 
 
 function App() {
