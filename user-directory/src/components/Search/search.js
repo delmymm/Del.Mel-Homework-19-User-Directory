@@ -1,13 +1,14 @@
 import React from "react";
 
 function Search(props) {
+    console.log(props.searchValue)
     return (
         <form>
             <div className="form-group">
                 <label htmlFor="search">Search:</label>
                 <input
                     onChange={props.handleInputChange}
-                    value={props.search}
+                    value={props.searchValue}
                     name="search"
                     type="text"
                     className="form-control"

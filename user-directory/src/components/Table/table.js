@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TableBody from "../TableBody/tablebody";
 
 
-function Table({ results, setResults, nameFilter = "" }) {
+function Table({ results, nameFilter = "" }) {
   const [sortDirection, setSortDirection] = useState(0);
 
   nameFilter = new RegExp(nameFilter, "i")
@@ -21,7 +21,7 @@ function Table({ results, setResults, nameFilter = "" }) {
       <thead className="">
         <tr>
           <th scope="col">
-            <button type="button">Profile Photo</button>
+            <h3 type="button">Profile Photo</h3>
           </th>
           <th scope="col">
             <button type="button" onClick={() => {
@@ -30,17 +30,16 @@ function Table({ results, setResults, nameFilter = "" }) {
               } else {
                 setSortDirection(1);
               }
-
             }}>Name</button>
           </th>
           <th scope="col">
-            <button type="button">Date of Birth</button>
+            <h3 type="button">Date of Birth</h3>
           </th>
           <th scope="col">
-            <button type="button">Email</button>
+            <h3 type="button">Email</h3>
           </th>
           <th scope="col">
-            <button type="button">Phone</button>
+            <h3 type="button">Phone</h3>
           </th>
         </tr>
       </thead>
