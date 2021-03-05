@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TableBody from "../TableBody/tablebody";
+import "./style.css";
 
 
 function Table({ results, nameFilter = "" }) {
@@ -18,10 +19,10 @@ function Table({ results, nameFilter = "" }) {
 
   return (
     <table className="table">
-      <thead className="">
+      <thead>
         <tr>
           <th scope="col">
-            <h3 type="button">Profile Photo</h3>
+            <h3>Profile Photo</h3>
           </th>
           <th scope="col">
             <button type="button" onClick={() => {
@@ -33,13 +34,13 @@ function Table({ results, nameFilter = "" }) {
             }}>Name</button>
           </th>
           <th scope="col">
-            <h3 type="button">Date of Birth</h3>
+            <h3>Date of Birth</h3>
           </th>
           <th scope="col">
-            <h3 type="button">Email</h3>
+            <h3>Email</h3>
           </th>
           <th scope="col">
-            <h3 type="button">Phone</h3>
+            <h3>Phone</h3>
           </th>
         </tr>
       </thead>
