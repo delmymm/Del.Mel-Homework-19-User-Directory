@@ -25,7 +25,7 @@ function Table({ results, nameFilter = "" }) {
             <h3>Profile Photo</h3>
           </th>
           <th scope="col">
-            <button type="button" onClick={() => {
+            <button className="button" type="button" onClick={() => {
               if (sortDirection) {
                 setSortDirection(-sortDirection)
               } else {
