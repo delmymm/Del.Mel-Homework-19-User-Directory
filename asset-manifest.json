@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/delmymm/Del.Mel-Homework-19-User-Directory/static/css/main.3604dd92.chunk.css",
+    "main.js": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/main.2138f666.chunk.js",
+    "main.js.map": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/main.2138f666.chunk.js.map",
+    "runtime-main.js": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/runtime-main.7f8c4625.js",
+    "runtime-main.js.map": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/runtime-main.7f8c4625.js.map",
+    "static/js/2.8a406dc3.chunk.js": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/2.8a406dc3.chunk.js",
+    "static/js/2.8a406dc3.chunk.js.map": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/2.8a406dc3.chunk.js.map",
+    "static/js/3.84d45de8.chunk.js": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/3.84d45de8.chunk.js",
+    "static/js/3.84d45de8.chunk.js.map": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/3.84d45de8.chunk.js.map",
+    "index.html": "/delmymm/Del.Mel-Homework-19-User-Directory/index.html",
+    "static/css/main.3604dd92.chunk.css.map": "/delmymm/Del.Mel-Homework-19-User-Directory/static/css/main.3604dd92.chunk.css.map",
+    "static/js/2.8a406dc3.chunk.js.LICENSE.txt": "/delmymm/Del.Mel-Homework-19-User-Directory/static/js/2.8a406dc3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8c4625.js",
+    "static/js/2.8a406dc3.chunk.js",
+    "static/css/main.3604dd92.chunk.css",
+    "static/js/main.2138f666.chunk.js"
+  ]
+}
